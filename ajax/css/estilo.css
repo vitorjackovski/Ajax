@@ -1,0 +1,87 @@
+@font-face {
+    font-family: 'Oswald';
+    src: url('../fonts/Oswald-Regular.ttf') format('truetype');
+}
+
+
+* {
+    font-family: 'Oswald', sans-serif;
+}
+
+
+html {
+    height: 100%;
+}
+
+
+body {
+    margin: 0;
+    background-color: #e3f2fd; /* Azul pastel clarinho */
+    color: #0d47a1; /* Azul escuro pastel */
+    height: 100%;
+}
+
+
+table {
+    border-collapse: collapse;
+}
+
+
+tr {
+    border-bottom: solid 1px #90caf9; /* Azul médio */
+}
+
+
+td {
+    font-size: 1.6em;
+    padding: 10px;
+}
+
+
+li {
+    font-size: 1.6em;
+}
+
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100%;
+}
+
+
+.exercicio div {
+    font-size: 3em;
+    border: solid 5px #90caf9;
+    padding: 10px 20px;
+    margin: 10px;
+    color: #0d47a1;
+}
+
+
+.exercicio div:nth-of-type(1) {
+    background-color: #bbdefb; /* Azul pastel claro */
+}
+
+
+.exercicio div:nth-of-type(2) {
+    background-color: #90caf9; /* Azul pastel médio */
+}
+
+
+.exercicio div:nth-of-type(3) {
+    background-color: #64b5f6; /* Azul mais vivo pastel */
+}
+
+
+.exercicio div:nth-of-type(4) {
+    background-color: #42a5f5; /* Azul mais intenso */
+}
+
+
+.exercicio .destaque {
+    border: solid 10px #64b5f6;
+    color: #0d47a1;
+    font-weight: bold;
+}
